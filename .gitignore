@@ -1,0 +1,22 @@
+# VS Code IDE
+.vscode/
+.code-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+build/
+dist/
+
+# General Files
+*.class
+*.jar
+*.war
+*.log
+/target/
+hs_err_pid*
+.project
+.classpath
+.impl
+
+
