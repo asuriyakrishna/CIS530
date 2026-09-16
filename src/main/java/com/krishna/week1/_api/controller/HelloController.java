@@ -14,14 +14,15 @@ public class HelloController {
 
     @GetMapping(value = "/api/hello", produces = "text/plain")
     public String hello() {
-        return "Hello from Spring Boot!";
+        return "Krishna, Welcome to CIS-530 Course!";
     }
 
     @GetMapping("/api/status")
-    public Map<String, String> status() {
+    public Map<String, Object> status() {
         return Map.of(
-            "status", "success",
-            "message", "API is running"
+            "course", "CIS-530",
+            "week", "1.1",
+            "technology", "Spring Boot"
         );
     }
 }
