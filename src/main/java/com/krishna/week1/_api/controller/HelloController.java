@@ -21,7 +21,7 @@ public class HelloController {
     public Map<String, Object> status() {
         return Map.of(
             "course", "CIS-530",
-            "week", "1.1",
+            "week", "1",
             "technology", "Spring Boot"
         );
     }
