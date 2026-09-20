@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping(value = "/api/hello", produces = "text/plain")
     public String hello() {
-        return "Krishna, Welcome to CIS-530 Course!";
+        return "Welcome to CIS 530 – Week 1 REST API!";
     }
 
     @GetMapping("/api/status")
@@ -22,7 +22,9 @@ public class HelloController {
         return Map.of(
             "course", "CIS-530",
             "week", "1",
-            "technology", "Spring Boot"
+            "technology", "Spring Boot 4",
+            "instructor", "Richard Krasso",
+            "university", "Bellevue University"
         );
     }
 }
